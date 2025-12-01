@@ -90,3 +90,41 @@
 +Player Classes (Refined): I tweaked the classes to specifically sound like counters to an AI (e.g., "The Fortifier" helps against an aggressive AI).
 +
 +Win Conditions: In PvP, the game ends when people quit or time runs out. In PvC, you need a specific goal (e.g., "Bankrupt the Bot"), so I added a request for that.
+
+# 2025-12-01 07:04:13.851503
++GAME RULES (Updated Version)
++
++The game uses a 3×3 grid (9 total plots).
++
++Gray plot = free land.
++
++Clicking a free plot = Player buys the land by paying basePrice.
++
++Bought land turns Blue (Player-owned).
++
++Anyone can steal a plot by paying double the last price.
++
++When stolen:
++
++New owner gets the plot
++
++Previous owner automatically receives their profit
+
+# 2025-12-01 07:04:13.851934
++GAME RULES (Updated Version)
++
++The game uses a 3×3 grid (9 total plots).
++
++Gray plot = free land.
++
++Clicking a free plot = Player buys the land by paying basePrice.
++
++Bought land turns Blue (Player-owned).
++
++Anyone can steal a plot by paying double the last price.
++
++When stolen:
++
++New owner gets the plot
++
++Previous owner automatically receives their profit
