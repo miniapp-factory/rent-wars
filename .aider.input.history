@@ -1,0 +1,36 @@
+
+# 2025-12-01 05:31:27.299296
++Code the following app
++```
++I have a game concept called "Rent Wars." It is a 10x10 competitive grid where players buy land, and others can steal it by paying double the current value.
++
++Please write a comprehensive Game Design Document (GDD) that enhances this loop with the following depth:
++
++Economy Balancing: Create a mathematical formula for "Price Decay" so land doesn't become infinitely expensive.
++
++Classes/Roles: Introduce 3 distinct player classes (e.g., The Tycoon, The Saboteur, The Builder) that have unique passive abilities regarding rent or purchase costs.
++
++Visual Progression: Describe how the grid visually changes from "Dirt" to "Cyberpunk Citadel" based on the plot's value.
++
++The "Disaster" Mechanic: Invent a random event system (e.g., Market Crashes, Gentrification) to shake up the board every 60 seconds.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-12-01 05:31:27.300908
++Code the following app
++```
++I have a game concept called "Rent Wars." It is a 10x10 competitive grid where players buy land, and others can steal it by paying double the current value.
++
++Please write a comprehensive Game Design Document (GDD) that enhances this loop with the following depth:
++
++Economy Balancing: Create a mathematical formula for "Price Decay" so land doesn't become infinitely expensive.
++
++Classes/Roles: Introduce 3 distinct player classes (e.g., The Tycoon, The Saboteur, The Builder) that have unique passive abilities regarding rent or purchase costs.
++
++Visual Progression: Describe how the grid visually changes from "Dirt" to "Cyberpunk Citadel" based on the plot's value.
++
++The "Disaster" Mechanic: Invent a random event system (e.g., Market Crashes, Gentrification) to shake up the board every 60 seconds.
++```
++
++Generate an app logo and update the app metadata title and description.
