@@ -12,7 +12,7 @@ type AIType = "Aggressor" | "Slumlord" | "Sniper";
 
 export default function Grid() {
   const [cells, setCells] = useState<Cell[][]>(
-    Array.from({ length: 10 }, () =>
+    Array.from({ length: 3 }, () =>
       Array.from({ length: 10 }, () => ({
         owner: null,
         price: 10,
@@ -135,8 +135,8 @@ export default function Grid() {
         // Buy cheapest available cells
         let cheapest: {x:number,y:number} | null = null;
         let minPrice = Infinity;
-        for (let y = 0; y < 10; y++) {
-          for (let x = 0; x < 10; x++) {
+        for (let y = 0; y < 3; y++) {
+          for (let x = 0; x < 3; x++) {
             const cell = newCells[y][x];
             if (!cell.owner && cell.price < minPrice) {
               minPrice = cell.price;
@@ -153,8 +153,8 @@ export default function Grid() {
         // Wait for price decay then buy
         let target: {x:number,y:number} | null = null;
         let maxDecay = -1;
-        for (let y = 0; y < 10; y++) {
-          for (let x = 0; x < 10; x++) {
+        for (let y = 0; y < 3; y++) {
+          for (let x = 0; x < 3; x++) {
             const cell = newCells[y][x];
             if (!cell.owner) {
               const decay = cell.basePrice - cell.price;
@@ -177,7 +177,7 @@ export default function Grid() {
 
   const playerCount = cells.flat().filter(c => c.owner === "player1").length;
   const aiCount = cells.flat().filter(c => c.owner === "AI").length;
-  const win = playerCount > 51;
+  const win = playerCount > 4;
 
   const getColor = (price: number) => {
     if (price < 20) return "bg-amber-200";
@@ -194,7 +194,7 @@ export default function Grid() {
         <span>Player: {playerCount} cells | AI: {aiCount} cells</span>
       </div>
       {win && <div className="text-2xl text-green-600 mb-4">You Win!</div>}
-      <div className="grid grid-cols-10 gap-1">
+      <div className="grid grid-cols-3 gap-1">
         {cells.map((row, y) =>
           row.map((cell, x) => (
             <div
